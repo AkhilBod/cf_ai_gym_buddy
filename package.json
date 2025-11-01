@@ -1,0 +1,19 @@
+{
+  "name": "cf_ai_interview_coach",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts --test-scheduled",
+    "deploy": "wrangler deploy",
+    "typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241004.0",
+    "typescript": "^5.6.3",
+    "wrangler": "^4.45.3"
+  },
+  "dependencies": {
+    "agents": "^0.2.20"
+  }
+}

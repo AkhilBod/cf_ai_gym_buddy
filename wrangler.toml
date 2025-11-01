@@ -1,0 +1,21 @@
+name = "cf_ai_interview_coach"
+main = "src/index.ts"
+compatibility_date = "2025-10-31"
+compatibility_flags = ["nodejs_compat"]
+
+[ai]
+binding = "AI"
+
+[durable_objects]
+bindings = [
+  { name = "AGENT", class_name = "GymBuddyAgent" }
+]
+
+[[migrations]]
+tag = "v1"
+new_durable_objects = ["GymBuddyAgent"]
+
+[[workflows]]
+binding = "INTERVIEW"
+name = "InterviewWorkflow"
+class_name = "InterviewWorkflow"
