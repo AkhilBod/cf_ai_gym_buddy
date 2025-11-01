@@ -175,7 +175,7 @@ new_durable_objects = ["GymBuddyAgent"]
 binding = "AI"
 ```
 
-## 🧠 AI Model & Prompting
+## AI Model & Prompting
 
 ### Model Selection: Llama 3.3 70B Instruct FP8 Fast
 
@@ -202,7 +202,7 @@ The prompt is optimized for:
 
 See `PROMPTS.md` for detailed prompt engineering notes.
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### "Coach is thinking..." stays forever
 - Check network connection
