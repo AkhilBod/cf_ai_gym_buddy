@@ -131,16 +131,8 @@ curl -X POST "http://localhost:8787/api/chat" \
 }
 ```
 
-## 🎨 Frontend Features
 
-- **Dark theme** for distraction-free coaching
-- **Real-time chat interface** with auto-scrolling
-- **Loading indicator** ("⏳ Coach is thinking...") shows when AI is processing
-- **Session persistence** using browser localStorage
-- **Keyboard shortcuts**: Ctrl+Enter to send messages
-- **Responsive design** works on desktop and mobile
-
-## 🛠️ Development
+##  Development
 
 ### Project Structure
 ```
@@ -227,7 +219,7 @@ See `PROMPTS.md` for detailed prompt engineering notes.
 - Check that account has AI subrequests available
 - Confirm `@cf/meta/llama-3.3-70b-instruct-fp8-fast` model is available
 
-## 🎓 Assignment Instructions Compliance
+##  Assignment Instructions Compliance
 
 ✅ **Repository Naming**: Prefixed with `cf_ai_` (cf_ai_gym_buddy)  
 ✅ **README.md**: Comprehensive documentation with setup and API guides  
@@ -236,7 +228,7 @@ See `PROMPTS.md` for detailed prompt engineering notes.
 ✅ **Original Work**: No copying from other submissions  
 ✅ **GitHub Access**: Public repository with live deployment link  
 
-## 📚 Resources & Documentation
+##  Resources & Documentation
 
 - [Cloudflare Workers Documentation](https://developers.cloudflare.com/workers/)
 - [Workers AI Models & Pricing](https://developers.cloudflare.com/workers-ai/models/)
@@ -244,13 +236,13 @@ See `PROMPTS.md` for detailed prompt engineering notes.
 - [Cloudflare Agents](https://developers.cloudflare.com/agents/)
 - [Llama 3.3 Model Card](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct)
 
-## 🚢 Deployment Status
+##  Deployment Status
 
 - **Live URL**: https://cf-ai-gym-buddy.akkiisan9.workers.dev
 - **Status**: ✅ Deployed and operational
 - **Testing**: Use curl examples above or visit live URL in browser
 
-## 📝 License
+##  License
 
 Original project for Cloudflare assignment. All work is original.
 
