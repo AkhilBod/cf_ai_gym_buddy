@@ -82,7 +82,7 @@ This project satisfies all Cloudflare AI assignment requirements:
    - Check terminal output for deployment URL
    - Example: `https://cf-ai-gym-buddy.your-account.workers.dev`
 
-## 📋 API Endpoints
+##  API Endpoints
 
 ### POST /api/start
 Initialize a new workout session.
