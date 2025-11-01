@@ -2,32 +2,16 @@
 
 An intelligent, real-time fitness coaching application built on Cloudflare Workers with the Llama 3.3 LLM. Get personalized workout advice, form corrections, and motivational coaching powered by AI.
 
-## 🎯 Assignment Requirements Met
+## Assignment Requirements Met
 
 This project satisfies all Cloudflare AI assignment requirements:
 
-- ✅ **LLM Component**: Llama 3.3 70B Instruct FP8 Fast via Cloudflare Workers AI
+[https://cf_ai_interview_coach.akkiisan9.workers.dev/
+](url)- ✅ **LLM Component**: Llama 3.3 70B Instruct FP8 Fast via Cloudflare Workers AI
 - ✅ **Workflow/Coordination**: Cloudflare Agents + Durable Objects for stateful AI sessions
 - ✅ **User Input**: Real-time chat interface with instant AI responses
 - ✅ **Memory/State**: Persistent conversation history per user session using Durable Objects
 
-## 🏗️ Architecture
-
-```
-┌─────────────────────────────────────────────┐
-│   Cloudflare Workers (TypeScript)           │
-│   - HTTP routing & session management       │
-│   - Single-page HTML/JavaScript frontend    │
-└──────────┬──────────────────────────────────┘
-           │
-           ├─→ Durable Objects (GymBuddyAgent)
-           │   - Session persistence
-           │   - Conversation history storage
-           │
-           └─→ Workers AI (Llama 3.3 70B)
-               - Real-time AI responses
-               - Coaching prompts
-```
 
 ### Components
 
@@ -48,7 +32,7 @@ This project satisfies all Cloudflare AI assignment requirements:
    - Context: Personal trainer coaching prompt
    - Config: max_tokens=150, temperature=0.7 (concise responses)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
