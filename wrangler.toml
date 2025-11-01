@@ -1,4 +1,4 @@
-name = "cf_ai_interview_coach"
+name = "cf_ai_gym_buddy"
 main = "src/index.ts"
 compatibility_date = "2025-10-31"
 compatibility_flags = ["nodejs_compat"]
